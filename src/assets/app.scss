@@ -1,0 +1,41 @@
+@import "./_variables.scss";
+
+.btn {
+    padding: 10px 16px;
+    background-color: $blue;
+    color: white;
+    border-radius: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.flex-1 {
+    display: flex;
+    flex: 1 1 0% !important;
+    align-items: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.text-danger {
+    color: red;
+    margin: 8px;
+}
